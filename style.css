@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(246, 255, 127);
+}
+div {
+    background-color: blue;
+    border-style: solid;
+    
+}
+.header img {
+    float: left;
+    width:304px;height:342px;
+    background-color: blue;
+}
+.header h1 {
+    color: rgb(255, 0, 0);
+    position: relative;
+    font-family:fantasy;
+    font-size: 2cm;
+    float: right;
+}
+div {
+    background-color: blueviolet;
+}
