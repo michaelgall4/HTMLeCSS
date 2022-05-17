@@ -57,7 +57,7 @@ hr {
     height: 2500px;
     display: table;
 }
-    .div2 h1 {
+    .aboutMe h1 {
         color:rgb(0, 0, 0);
         font-family:fantasy;
         font-size: 1cm;
@@ -71,6 +71,20 @@ hr {
         margin-left: 400px;
         margin-right: 100px;
     }
+    .aboutMe h3 {
+        color:rgb(0, 0, 0);
+        font-family:fantasy;
+        font-size: 0.75cm;
+        text-align: center;
+        text-shadow: 2px 2px 4px #ffffff;
+    }
+    .aboutMe h5 {
+        color:rgb(0, 0, 0);
+        font-family:fantasy;
+        font-size: 0.40cm;
+        text-align: left;
+    }
+    
     .columnl {
         background-color: rgb(8, 242, 250);
         border-style: solid;
