@@ -1,23 +1,169 @@
 body {
     background-color: rgb(246, 255, 127);
 }
-div {
-    background-color: blue;
+hr {
+    margin-left: 10px;
+    margin-right: 10px;
+    height:2px;
+    border-width:0;
+    color:black;
+    background-color:black
+}
+.div1 {
+    background-color: rgba(77, 77, 253, 0.89);
     border-style: solid;
-    
+    width: 1500px;
+    height: 400px;
+    display: table;
 }
-.header img {
-    float: left;
-    width:304px;height:342px;
-    background-color: blue;
-}
-.header h1 {
-    color: rgb(255, 0, 0);
-    position: relative;
-    font-family:fantasy;
-    font-size: 2cm;
-    float: right;
-}
-div {
+    .div1 img {
+        float: left;
+        width:304px;height:342px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .div1 h1 {
+        color: rgba(3, 3, 3, 0.911);
+        position: relative;
+        font-family:fantasy;
+        font-size: 2cm;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 50px;
+        text-shadow: 2px 2px 4px #f8f8f8;
+        text-align: center;
+    }
+    .div1 h2 {
+        color: rgba(0, 0, 0, 0.911);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: right;
+        font-size: 1cm;
+        margin-left: 100px;
+        margin-right: 80px;
+        text-shadow: 1.5px 1.5px 3px #ffffff;
+    }
+    .p1 {
+        color: rgba(0, 0, 0, 0.911);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: right;
+        font-size: 0.75cm;
+        margin-left: 100px;
+        margin-right: 80px;  
+    }
+.div2 {
     background-color: blueviolet;
+    border-style: solid;
+    width: 1500px;
+    height: 2500px;
+    display: table;
 }
+    .div2 h1 {
+        color:rgb(0, 0, 0);
+        font-family:fantasy;
+        font-size: 1cm;
+        text-align: center;
+        text-shadow: 2px 2px 4px #ffffff;
+        border: 2px solid black;
+        padding: 10px;
+        border-radius: 25px;
+        display: block;
+        display: inline-block;
+        margin-left: 400px;
+        margin-right: 100px;
+    }
+    .columnl {
+        background-color: rgb(8, 242, 250);
+        border-style: solid;
+        width: 500px;
+        height: 2500px;
+        display: table;
+        float:left;
+    }
+        .html h2 {
+            color:rgb(0, 0, 0);
+            font-family:fantasy;
+            font-size: 1cm;
+            text-align: center;
+            text-shadow: 2px 2px 4px #ffffff;
+        }
+        .progress {
+            margin: 50px auto;
+            padding: 2px;
+            width: 100%;
+            max-width: 480px;
+            border: 3px solid #05e35e;
+            height: 30px;
+        }
+        .progress .progress__bar {
+            height: 100%;
+            width: 0%;
+            background-color: #05e35e;
+            animation: fill-bar 10s infinite ;
+        }
+        @keyframes fill-bar {
+            from {width: 0%;}
+            to {width: 60%;}
+        }
+        .per h4 {
+            float: right;
+            font-size: 0.5cm;
+        }
+        .css h2 {
+            color:rgb(0, 0, 0);
+            font-family:fantasy;
+            font-size: 1cm;
+            text-align: center;
+            text-shadow: 2px 2px 4px #ffffff;
+        }
+        .progress1 {
+            margin: 50px auto;
+            padding: 2px;
+            width: 100%;
+            max-width: 480px;
+            border: 3px solid #05e35e;
+            height: 30px;
+        }
+        .progress1 .progress__bar1 {
+            height: 100%;
+            width: 0%;
+            background-color: #eeff04;
+            animation: fill-bar1 10s infinite ;
+        }
+        @keyframes fill-bar1 {
+            from {width: 0%;}
+            to {width: 45%;}
+        }
+        .per1 h4 {
+            float: right;
+            font-size: 0.5cm;
+        }
+        .c h2 {
+            color:rgb(0, 0, 0);
+            font-family:fantasy;
+            font-size: 1cm;
+            text-align: center;
+            text-shadow: 2px 2px 4px #ffffff;
+        }
+        .progress2 {
+            margin: 50px auto;
+            padding: 2px;
+            width: 100%;
+            max-width: 480px;
+            border: 3px solid #05e35e;
+            height: 30px;
+        }
+        .progress2 .progress__bar2 {
+            height: 100%;
+            width: 0%;
+            background-color: #ff9204;
+            animation: fill-bar2 10s infinite ;
+        }
+        @keyframes fill-bar2 {
+            from {width: 0%;}
+            to {width: 20%;}
+        }
+        .per2 h4 {
+            float: right;
+            font-size: 0.5cm;
+        }
+    
